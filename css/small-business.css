@@ -7,17 +7,18 @@
 body {
     color:#555555;
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    
 }
 
 .navbar-fixed-top .nav {
     padding: 15px 0;
-    /* background:#01503d;*/
+    /*background:#01503d;*/
     /* background:#c85a19; */
 }
 
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
-    /* background:#01503d; */
+    background:#01503d;
 }
 
 footer {
@@ -32,15 +33,7 @@ footer {
 
     .navbar-fixed-top .navbar-brand {
         padding: 15px 0;
-        /* background:#01503d; */
+        background:#01503d;
     }
 }
 
-#owl-demo .item{
-  margin: 3px;
-}
-#owl-demo .item img{
-  display: block;
-  width: 100%;
-  height: auto;
-}
