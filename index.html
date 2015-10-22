@@ -31,6 +31,8 @@
 
 
 
+    <!-- Font awesome -->
+    <link href="css/font-awesome.css" rel="stylesheet">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +40,12 @@
     <!-- Custom CSS -->
     <link href="css/small-business.css" rel="stylesheet">
 
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="owl/owl-carousel/owl.carousel.css">
+     
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="owl/owl-carousel/owl.theme.css">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,6 +53,48 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '757220527734816');
+    fbq('track', "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=757220527734816&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+
+
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!--  jQuery 1.7+  -->
+    <script src="js/jquery-1.9.1.min.js"></script>    
+     
+    <!-- Include js plugin -->
+    <script src="js/owl.carousel.js"></script>
+
+
+        <style>
+      .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img {
+          width: 80%;
+          margin: auto;
+          max-height: 400px;
+      }
+      </style>
+
+
 
 </head>
 
@@ -69,7 +118,7 @@
                 
                 <a class="navbar-brand" href="index.html">
                     
-                    <img src="images/logoballe2.png"  height="40" alt="Logo Licence Tennis">
+                <!--    <img src="images/logoballe2.png"  height="40" alt="Logo Licence Tennis"> -->
                 <!-- <a href="index.html"> Licence-tennis.fr </a> -->
                 </a>
             </div>
@@ -105,30 +154,76 @@
     
 
 
+
     <!-- Page Content -->
     <div class="container">
+
+         
 
         <!-- Heading Row -->
         <div class="row">
             <div class="col-md-8">
-                <img class="img-responsive img-rounded" src="images/BalleTB.jpg" alt="">
+            
+            <!--    <img class="img-responsive img-rounded" src="images/BalleTB.jpg" alt=""> -->
+            
+                    
+                      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                          <li data-target="#myCarousel" data-slide-to="2"></li>
+                          <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                          <div class="item active">
+                            <img src="images/joueuse1.jpg" alt="joueuse tennis" width="450" height="313">
+                          </div>
+
+                          <div class="item">
+                            <img src="images/joueur1.jpg" alt="joueur tennis" width="450" height="313">
+                          </div>
+                        
+                          <div class="item">
+                            <img src="images/enfants.jpg" alt="enfant tennis" width="460" height="345">
+                          </div>
+
+                          <div class="item">
+                            <img src="images/balleverte.jpg" alt="balle tennis" width="460" height="345">
+                          </div>
+                        </div>
+
+
+
             </div>
+            
+        </div>
+
+
+
             <!-- /.col-md-8 -->
             <div class="col-md-4">
                 <h1>Bienvenue sur licence-tennis.fr ! </h1>
                 
+                <br>
+                <br>
                 
-                <p> Commandez en quelques clics votre licence ! Que ce soit pour jouer en tournoi homologué FFT ou bénéficier des nombreux avantages licenciés, n'attendez plus et commandez votre licence !
+                <p style="text-align:justify"> Commandez en quelques clics votre licence ! Que ce soit pour jouer en tournoi homologué FFT ou bénéficier des nombreux avantages licenciés, n'attendez plus et commandez votre licence !
                 
                 </p>
+
+                <br>
+                <br>
 
                 <!--
                 <a class="btn btn-primary btn-lg" href="#">Commander ma licence !</a>
                 -->
-
-                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#orderForm"> Commander ma licence !
+                <div class="col-md-4 text-center">
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#orderForm" margin="auto"> Commander ma licence !
                 </button>
-
+                </div>
 
             </div>
             <!-- /.col-md-4 -->
@@ -286,11 +381,10 @@
     </div>
     <!-- /.container -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+  
+
+
 
     <!-- Google Analytics --> 
 
