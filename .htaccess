@@ -1,2 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
 RewriteCond %{HTTP_HOST} ^23\.235\.47\.133
 RewriteRule (.*) http://www.licence-tennis.fr/$1 [R=301,L]
