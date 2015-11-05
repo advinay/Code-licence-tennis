@@ -1,0 +1,3 @@
+# autorise tout
+User-agent: *
+Allow: /
