@@ -1,1 +1,2 @@
-RedirectPermanent http://licence-tennis.fr http://www.licence-tennis.fr
+RewriteCond %{HTTP_HOST} ^23\.235\.47\.133
+RewriteRule (.*) http://www.licence-tennis.fr/$1 [R=301,L]
