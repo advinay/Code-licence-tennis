@@ -1,3 +1,4 @@
 # autorise tout
 User-agent: *
 Allow: /
+Sitemap: http://www.licence-tennis.fr/sitemap.txt
