@@ -48,8 +48,8 @@ img {
 
 .fb-like-container {
   
-  padding: 0;
   padding-top: 0px;
+  padding-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -70,9 +70,5 @@ img {
     text-align:justify;
 }
 
-#aimez {
 
-    padding-left: 200px;
-
-}
 
