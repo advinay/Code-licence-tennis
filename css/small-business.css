@@ -46,7 +46,7 @@ img {
   font-size: 24px;
 }
 
-.fb-like-container {
+/*.fb-like-container {
   position: relative;
   padding: 0;
   padding-top: 55px;
@@ -57,7 +57,7 @@ img {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-}
+}*/
 
 
 .justif {
