@@ -46,11 +46,15 @@ img {
   font-size: 24px;
 }
 
-/*.fb-like-container {
-  position: relative;
+.fb-like-container {
+  position:relative;
   padding: 0;
   padding-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/*
 .fb-like {
   position: absolute;
   top: 50%;
@@ -58,10 +62,16 @@ img {
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }*/
-
+*/
 
 .justif {
 
     text-align:justify;
+}
+
+#aimez {
+
+    padding-left: 200px;
+
 }
 
