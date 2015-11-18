@@ -47,9 +47,9 @@ img {
 }
 
 .fb-like-container {
-  position:relative;
+  
   padding: 0;
-  padding-top: 55px;
+  padding-top: 0px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
