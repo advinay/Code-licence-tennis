@@ -281,9 +281,14 @@ mixpanel.init("399e65a4557eeb72288c60db5f1c1b87");</script>
                 </button>
 
                 -->
-                <a href="inscription.html" role="button" class="btn btn-primary btn-lg" margin="auto"> Commander ma licence !
+                <a href="inscription.html" role="button" class="btn btn-primary btn-lg" margin="auto" id="commande"> Commander ma licence !
                 </a>
 
+<script type="text/javascript">
+    mixpanel.track_links("#nav a", "click nav link", {
+        "referrer": document.referrer
+    });
+</script>
 
 
                 </div>
